@@ -1,1 +1,2 @@
-
+Take Away-------------------------------
+In Get_Recursion function will always return something - which will be consumbed by its callers--
