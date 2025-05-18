@@ -1,39 +1,57 @@
 # Recursion and Backtracking
 
-This repository contains a curated collection of problems and solutions focused on **Recursion** and **Backtracking** — essential topics in computer science and technical interviews. It is designed for learners preparing for coding interviews and aiming to develop a deep understanding of recursive problem-solving strategies.
+Welcome to the **Recursion and Backtracking** repository!  
+This repo contains Java implementations of classic and commonly asked **recursion** and **backtracking** problems, ideal for interview preparation and mastering problem-solving techniques.
 
 ---
 
-## 🧠 Topics Covered
+## 📌 What You'll Find Here
 
-- Basic recursion techniques
-- Recursive tree building
-- Backtracking templates
-- Classic backtracking problems (e.g., N-Queens, Sudoku Solver, Subsets, Permutations)
-- Recursive optimization
+This repository covers a variety of recursive and backtracking problems, including:
 
----
+- ✅ Basic recursion problems (factorial, power, Fibonacci)
+- ✅ Subsets and permutations
+- ✅ Palindromic partitioning
+- ✅ Maze pathfinding (Rat in a Maze)
+- ✅ Sudoku solver
+- ✅ N-Queens problem
+- ✅ Word search
+- ✅ All possible paths / combinations
 
-## 📁 Folder Structure
-
-Each file typically contains:
-- Problem statement (as comments)
-- Recursive approach explanation (inline comments)
+Each solution includes:
 - Java implementation
-
-| File | Description |
-|------|-------------|
-| `Permutations.java` | Generate all permutations of an array or string |
-| `Subsets.java` | Find all subsets (power set) of a set |
-| `NQueens.java` | Classic N-Queens backtracking solution |
-| `RatInMaze.java` | Maze pathfinding using backtracking |
-| `SudokuSolver.java` | Solve Sudoku puzzle using recursive backtracking |
-| ... | And many more problems to come! |
+- Inline comments for explanation
+- Clean and readable code
 
 ---
 
-## 🚀 How to Use
+## 🗂️ Directory Structure
+
+Currently, the code files are located in the `main` directory. Each `.java` file corresponds to a specific problem.
+
+| File Name                  | Description                                        |
+|---------------------------|----------------------------------------------------|
+| `Permutations.java`       | Generates all permutations of a list              |
+| `Subsets.java`            | Finds all subsets (power set) of a set            |
+| `NQueens.java`            | Solves the N-Queens problem using backtracking    |
+| `RatInMaze.java`          | Finds paths for a rat in a maze                   |
+| `SudokuSolver.java`       | Solves a Sudoku puzzle                            |
+| `PalindromePartition.java`| Partitions a string into palindromic substrings   |
+| _...more coming soon..._  |                                                    |
+
+---
+
+## 🚀 Getting Started
+
+### ✅ Prerequisites
+
+- Java JDK 8 or higher
+- Basic knowledge of recursion
+- A code editor (IntelliJ, Eclipse, or VS Code recommended)
+
+### 🔧 Run the Code
 
 1. Clone the repository:
    ```bash
    git clone https://github.com/kamya-creator/Recursion-and-Backtracking.git
+   cd Recursion-and-Backtracking
