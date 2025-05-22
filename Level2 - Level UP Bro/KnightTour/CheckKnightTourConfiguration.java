@@ -13,7 +13,7 @@ public class CheckKnightTourConfiguration {
     {
         // last parameter hi  h important
         // it verifies that jis position m hum next move chahte h vo vha h ya nhi
-        // agar nhi h to return , go for next possible direction
+        // agar nhi h to return , go for next possible direction 
         if( r<0 || c<0 || r>=n || c>=n || grid[r][c] != count  )
         {
             return ;
