@@ -1,57 +1,70 @@
 # Recursion and Backtracking
 
-Welcome to the **Recursion and Backtracking** repository!  
-This repo contains Java implementations of classic and commonly asked **recursion** and **backtracking** problems, ideal for interview preparation and mastering problem-solving techniques.
+This repository is a curated collection of Java implementations focused on **Recursion** and **Backtracking**—core concepts in Data Structures and Algorithms (DSA). It includes a variety of problems ranging from basic recursion to complex backtracking challenges.
 
 ---
 
-## 📌 What You'll Find Here
+## 📂 Project Structure
 
-This repository covers a variety of recursive and backtracking problems, including:
+The repository is organized into levels based on problem difficulty and concepts:
 
-- ✅ Basic recursion problems (factorial, power, Fibonacci)
-- ✅ Subsets and permutations
-- ✅ Palindromic partitioning
-- ✅ Maze pathfinding (Rat in a Maze)
-- ✅ Sudoku solver
-- ✅ N-Queens problem
-- ✅ Word search
-- ✅ All possible paths / combinations
+### 🔹 Level 1: Recursion Basics
 
-Each solution includes:
-- Java implementation
-- Inline comments for explanation
-- Clean and readable code
+Fundamental problems to build a strong foundation in recursion.
+
+- `PrintDecreasing.java`
+- `PrintIncreasing.java`
+- `PrintDecreasingIncreasing.java`
+- `Factorial.java`
+- `PowerXN.java`
+- `MaximumOfArray.java`
+- `DisplayArray.java`
+- `FirstIndexOfEle.java`
+- `LastIndexOfEle.java`
+- `AllIndexofEle.java`
+
+### 🔹 Level 2: Intermediate Recursion
+
+Problems that involve returning values and slightly complex logic.
+
+- `GetResultFromRecursion.java`
+- `PrintRecursionResult.java`
+
+### 🔹 Level 3: Backtracking
+
+Classical problems involving exploration of all possibilities using backtracking.
+
+- `PrintPermutation.java`
+- `PrintSubsequence.java`
+- `PrintKPC.java`
+- `PrintEncodings.java`
+- `NQueens.java`
+- `SudokuSolver.java`
+- `WordBreak.java`
+- `PalindromePartitioning.java`
+- `AllPalindromicPermutations.java`
 
 ---
 
-## 🗂️ Directory Structure
+## 🧠 Topics Covered
 
-Currently, the code files are located in the `main` directory. Each `.java` file corresponds to a specific problem.
-
-| File Name                  | Description                                        |
-|---------------------------|----------------------------------------------------|
-| `Permutations.java`       | Generates all permutations of a list              |
-| `Subsets.java`            | Finds all subsets (power set) of a set            |
-| `NQueens.java`            | Solves the N-Queens problem using backtracking    |
-| `RatInMaze.java`          | Finds paths for a rat in a maze                   |
-| `SudokuSolver.java`       | Solves a Sudoku puzzle                            |
-| `PalindromePartition.java`| Partitions a string into palindromic substrings   |
-| _...more coming soon..._  |                                                    |
+- Recursive problem-solving strategies
+- Backtracking algorithms
+- Generating permutations and combinations
+- Subsequence and substring generation
+- Encodings and decodings of strings
+- Puzzle problems like N-Queens and Sudoku
+- Palindromic partitions and permutations
 
 ---
 
 ## 🚀 Getting Started
 
-### ✅ Prerequisites
+To run any of the Java files:
 
-- Java JDK 8 or higher
-- Basic knowledge of recursion
-- A code editor (IntelliJ, Eclipse, or VS Code recommended)
+1. Make sure Java is installed on your machine.
+2. Open terminal and navigate to the file directory.
+3. Compile the Java file:
 
-### 🔧 Run the Code
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/kamya-creator/Recursion-and-Backtracking.git
-   cd Recursion-and-Backtracking
+```bash
+javac FileName.java
