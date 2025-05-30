@@ -20,6 +20,7 @@ public class PalindromicPermuation {
         }
         int oddCount = 0;
         char[] oddCharacter = new char[1];
+        oddCharacter[0] = '0';
         int halfLen = 0;
         for(Map.Entry<Character, Integer> entry  : map.entrySet())
         {
