@@ -1,6 +1,5 @@
 package PnC;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class Permutation2 {
@@ -18,10 +17,11 @@ public class Permutation2 {
             System.out.println(Arrays.toString(box));
             return;
         }
-
+        // get the curr character of level
         char ch = str.charAt(index);
+        // finding the last index of current character
         String s = new String(box);
-        int start = s.indexOf(ch);
+        int start = s.lastIndexOf(ch);
 
         for(int i = start + 1; i<box.length;i++)
         {
